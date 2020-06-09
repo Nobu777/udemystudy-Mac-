@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "*"
+sklearn = "*"
+seaborn = "*"
+japanize-matplotlib = "*"
+dtreeviz = "*"
+tqdm = "*"
+lightgbm = "==2.1.2"
+fbprophet = "*"
+plotly = "*"
+bs4 = "*"
+beautifulsoup4 = "*"
+
+[requires]
+python_version = "3.7"
